@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Coinmaster freespins</string>
+    <string name="app_name2">Coin master free\ncoins and spins</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="free_coins">Free coins</string>
+    <string name="free_spins">Free spins</string>
+    <string name="share_with_friends">Share with friends</string>
+    <string name="rate_us">rate us</string>
+    <string name="feedback">feedback</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="admob_interstitial_ad" />
+    <string name="admob_app_id" >ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id_admob">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_id_admob">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="native_id_admob">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="rate_us_text">If you are using our Application,\n take a moment to rate 5 star in \n play store to support developers.\n Thanks for your supports!</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="ad">Ad</string>
+</resources>

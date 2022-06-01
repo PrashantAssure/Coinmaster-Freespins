@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomsheet"
+    android:background="@drawable/dialog_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_frame"
+    android:layout_gravity="center"
+    tools:ignore="ContentDescription"
+    android:layout_marginTop="@dimen/_10ssp"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rate_us_text"
+        android:fontFamily="@font/poppins_medium"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_6ssp"
+        android:progressTint="@color/status_bar_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cancle"
+            android:layout_weight="0.5"
+            android:text="@string/cancel"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10ssp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rate"
+            android:layout_weight="0.5"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="@string/ok"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginStart="@dimen/_10ssp"/>
+    </LinearLayout>
+    </LinearLayout>

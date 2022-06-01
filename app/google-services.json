@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517804683980",
+    "project_id": "azzuresolutionsc",
+    "storage_bucket": "azzuresolutionsc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517804683980:android:df42d15dde054c3c928869",
+        "android_client_info": {
+          "package_name": "com.azzuresolutionscmrewards.azzuresolutionsc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517804683980-njkd6s62ak8b944gdirvrfuf5cm3pki8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM-K33z1ZDwhFKQb5fm3zfie8Qza2uHTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517804683980-njkd6s62ak8b944gdirvrfuf5cm3pki8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

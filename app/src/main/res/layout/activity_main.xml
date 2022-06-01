@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/nativeAdFrameLayoutBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:orientation="vertical" >
+                    <com.facebook.shimmer.ShimmerFrameLayout
+                        android:id="@+id/shimmmerFrameLayout"
+                        android:layout_width="match_parent"
+                        app:shimmer_auto_start="true"
+                        android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        tools:ignore="UselessParent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/shape_bg"
+                            android:scaleType="centerCrop"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:background="@drawable/native_ad_tag"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="@string/ad"
+                            android:textColor="#FFF"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+                    </com.facebook.shimmer.ShimmerFrameLayout>
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnCoins"
+                    style="@style/ButtonTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:drawableStart="@drawable/ic_coins"
+                    android:text="@string/free_coins" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnSpins"
+                    style="@style/ButtonTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:drawableStart="@drawable/ic_spin"
+                    android:text="@string/free_spins" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/share"
+                    style="@style/ButtonTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:drawableStart="@drawable/ic_share"
+                    android:text="@string/share_with_friends" />
+
+                <androidx.appcompat.widget.AppCompatButton
+
+                    android:id="@+id/rate_us"
+                    style="@style/ButtonTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:drawableStart="@drawable/ic_rate_us"
+                    android:text="@string/rate_us" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/feedback"
+                    style="@style/ButtonTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:drawableStart="@drawable/ic_feedback"
+                    android:text="@string/feedback" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/pap"
+                    style="@style/ButtonTheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_10sdp"
+                    android:drawableStart="@drawable/ic_privacy"
+                    android:text="@string/privacy_policy"
+                    tools:ignore="UsingOnClickInXml" />
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
